@@ -59,4 +59,10 @@ public class Livro {
 		this.categoria = categoria;
 	}
 
+	@Override
+	public String toString() {
+		return "Livro [codigo=" + codigo + ", titulo=" + titulo + ", nomeAutor=" + nomeAutor + ", valor=" + valor
+				+ ", categoria=" + categoria + "]";
+	}
+	
 }
